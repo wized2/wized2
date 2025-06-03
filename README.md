@@ -12,11 +12,11 @@
 
 ## Github Stats 
 
- [![XxZixiaxX-Alt's github stats](https://bad-apple-github-readme.vercel.app/api?username=XxZixiaxX-Alt&show_icons=true&count_private=true&line_height=20&icon_color=00b3ff&theme=blue-green&title_color=00b3ff)](#)
+ [![XxZixiaxX-Alt's github stats](https://bad-apple-github-readme.vercel.app/api?username=UrBudPenguin&show_icons=true&count_private=true&line_height=20&icon_color=00b3ff&theme=blue-green&title_color=00b3ff)](#)
  
- [![Top languages](https://github-readme-mwendwa.vercel.app/api/top-langs/?username=XxZixiaxX-Alt&layout=compact&count_private=true&theme=blue-green&title_color=00b3ff)](#)
+ [![Top languages](https://github-readme-mwendwa.vercel.app/api/top-langs/?username=UrBudPenguin&layout=compact&count_private=true&theme=blue-green&title_color=00b3ff)](#)
 
-[![SprintingSnail69's current streak](https://streak-stats.demolab.com/?user=XxZixiaxX-Alt&count_private=true&theme=blue-green&title_color=00b3ff)](#)
+[![SprintingSnail69's current streak](https://streak-stats.demolab.com/?user=UrBudPenguin&count_private=true&theme=blue-green&title_color=00b3ff)](#)
 
 <p align="center">
      <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
