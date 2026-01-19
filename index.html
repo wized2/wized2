@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mudasir Wazir • Project Endroid</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&display=swap"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <style>
+    :root {
+      --bg: #0f0f17;
+      --surface: #1a1a2e;
+      --primary: #a78bfa;
+      --primary-container: #4c1d95;
+      --on-primary: #ffffff;
+      --secondary: #7dd3fc;
+      --text: #e0e0ff;
+      --text-secondary: #a0a0cc;
+      --border: #333350;
+      --shadow: 0 8px 32px rgba(0,0,0,0.5);
+    }
+    [data-theme="light"] {
+      --bg: #f8f9ff;
+      --surface: #ffffff;
+      --primary: #6d28d9;
+      --primary-container: #e9d5ff;
+      --on-primary: #ffffff;
+      --secondary: #0284c7;
+      --text: #1e1b4b;
+      --text-secondary: #475569;
+      --border: #e2e8f0;
+      --shadow: 0 8px 32px rgba(0,0,0,0.08);
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Google Sans', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 2rem 1rem;
+      line-height: 1.6;
+    }
+    .container { max-width: 1100px; margin: 0 auto; }
+    header { text-align: center; padding: 4rem 0 3rem; }
+    .typing {
+      font-size: 3.2rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+    .tagline { font-size: 1.3rem; color: var(--text-secondary); margin: 1rem 0 2rem; font-weight: 400; }
+    .theme-toggle {
+      position: fixed; top: 1.5rem; right: 1.5rem;
+      background: var(--surface); color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 50%; width: 48px; height: 48px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; box-shadow: var(--shadow); transition: all 0.3s;
+    }
+    .theme-toggle:hover { transform: scale(1.1); }
+    .badges { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin: 1.5rem 0; }
+    .badge {
+      background: var(--primary-container); color: var(--primary);
+      padding: 0.5rem 1rem; border-radius: 999px; font-weight: 600;
+      font-size: 0.95rem; box-shadow: var(--shadow);
+    }
+    section { margin: 4rem 0; }
+    h2 {
+      text-align: center; font-size: 2.5rem; margin-bottom: 2.5rem;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.8rem;
+    }
+    .card {
+      background: var(--surface); border-radius: 1.2rem; overflow: hidden;
+      border: 1px solid var(--border); box-shadow: var(--shadow);
+      transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    .card:hover { transform: translateY(-12px); box-shadow: 0 24px 48px rgba(0,0,0,0.3); }
+    .card-header {
+      padding: 1.5rem; background: linear-gradient(135deg, var(--primary-container), transparent);
+      display: flex; align-items: center; gap: 1rem;
+    }
+    .card-header .material-icons { font-size: 2.2rem; color: var(--primary); }
+    .card-title { font-size: 1.4rem; font-weight: 600; }
+    .card-body { padding: 1.5rem; color: var(--text-secondary); }
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.6rem;
+      background: var(--primary); color: var(--on-primary);
+      padding: 0.8rem 1.5rem; border-radius: 999px; text-decoration: none;
+      font-weight: 600; margin-top: 1rem; transition: all 0.3s;
+    }
+    .btn:hover { background: var(--secondary); transform: translateY(-2px); }
+    .connect { text-align: center; margin: 5rem 0; }
+    .connect-grid {
+      display: flex; flex-wrap: wrap; gap: 1.2rem; justify-content: center;
+    }
+    .stats { text-align: center; margin: 4rem 0; }
+    footer {
+      text-align: center; padding: 3rem 0; color: var(--text-secondary);
+      border-top: 1px solid var(--border); margin-top: 6rem;
+    }
+    @media (max-width: 768px) {
+      .typing { font-size: 2.4rem; }
+      h2 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <button class="theme-toggle" onclick="toggleTheme()">
+    <span class="material-icons">light_mode</span>
+  </button>
+
+  <div class="container">
+    <header>
+      <h1 class="typing">Hello, I'm Mudasir Wazir</h1>
+      <p class="tagline">Continuing the legacy of <strong>Project Endroid</strong> — modern, beautiful, free & open-source web apps with Material You 3 magic ✨</p>
+
+      <div class="badges">
+        <span class="badge">Made with ❤️</span>
+        <span class="badge">Offline First</span>
+        <span class="badge">Expressive Animations</span>
+        <span class="badge">Seamless Dark/Light</span>
+      </div>
+    </header>
+
+    <section class="stats">
+      <img src="https://github-readme-stats.vercel.app/api?username=wized2&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" style="max-width:100%; border-radius:1rem; margin:1rem 0; box-shadow:var(--shadow);"/>
+      <br/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wized2&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" style="max-width:100%; border-radius:1rem; margin:1rem 0; box-shadow:var(--shadow);"/>
+    </section>
+
+    <section>
+      <h2>✨ Featured Endroid Apps</h2>
+      <div class="grid">
+
+        <div class="card">
+          <div class="card-header">
+            <span class="material-icons">smart_toy</span>
+            <div class="card-title">Endroid AI</div>
+          </div>
+          <div class="card-body">
+            Free & Open-Source AI powered by DeepSeek. Material You 3 expressive theme, icons, seamless dark/light modes.
+            <a href="https://wized2.github.io/Ai/" class="btn"><span class="material-icons">rocket_launch</span> Launch AI</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="material-icons">search</span>
+            <div class="card-title">Endroid Search</div>
+          </div>
+          <div class="card-body">
+            Modern, customizable search engine with clean, seamless browsing experience.
+            <a href="https://wized2.github.io/Search/" class="btn"><span class="material-icons">explore</span> Explore Search</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="material-icons">encrypted_add</span>
+            <div class="card-title">Endroid Base64</div>
+          </div>
+          <div class="card-body">
+            100% local, secure Base64 encoder/decoder. No data ever leaves your browser.
+            <a href="https://wized2.github.io/Base64/" class="btn"><span class="material-icons">lock</span> Try Base64</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="material-icons">schedule</span>
+            <div class="card-title">Endroid Clock</div>
+          </div>
+          <div class="card-body">
+            Interactive analog + digital clock with dynamic Material You theming.
+            <a href="https://wized2.github.io/Clock/" class="btn"><span class="material-icons">timer</span> Check Time</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="material-icons">edit_note</span>
+            <div class="card-title">Endroid Notes</div>
+          </div>
+          <div class="card-body">
+            Beautiful offline notes with rich text, swipe-to-delete, auto-save.
+            <a href="https://wized2.github.io/Notes/" class="btn"><span class="material-icons">note_add</span> Take Notes</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="material-icons">calculate</span>
+            <div class="card-title">Endroid Calculator</div>
+          </div>
+          <div class="card-body">
+            Expressive animations, Material You 3 theme — beautiful math companion.
+            <a href="https://wized2.github.io/Calculator/" class="btn"><span class="material-icons">functions</span> Start Calculating</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="material-icons">stadia_controller</span>
+            <div class="card-title">Endroid Maze</div>
+          </div>
+          <div class="card-body">
+            Procedural maze game, multiple difficulties, smooth animations & fun!
+            <a href="https://wized2.github.io/Maze/" class="btn"><span class="material-icons">sports_esports</span> Play Maze</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="connect">
+      <h2>💬 Let's Connect!</h2>
+      <div class="connect-grid">
+        <a href="mailto:acartoon766@gmail.com" class="btn" style="background:#ea4335;"><span class="material-icons">mail</span> Email Me</a>
+        <a href="https://discord.gg/Js8e7vZJY" target="_blank" class="btn" style="background:#5865F2;"><span class="material-icons">group</span> Join Discord</a>
+        <a href="https://igit.me/Endroid-WhatsApp" target="_blank" class="btn" style="background:#25D366;"><span class="material-icons">chat</span> Endroid on WhatsApp</a>
+        <a href="https://github.com/wized2" target="_blank" class="btn" style="background:#181717;"><span class="material-icons">code</span> GitHub</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Mudasir Wazir • Project Endroid • Most projects under MIT License</p>
+      <p>Made with passion & open source ♥</p>
+    </footer>
+  </div>
+
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      const icon = document.querySelector('.theme-toggle .material-icons');
+      icon.textContent = next === 'light' ? 'dark_mode' : 'light_mode';
+    }
+  </script>
+</body>
+</html>
