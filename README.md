@@ -1,3 +1,5 @@
+<p align="center"><img width="928" height="1120" alt="avatar" src="https://github.com/user-attachments/assets/b79d37c8-0f9e-43b3-b6da-62bc207f1973" />
+
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=35&pause=1000&color=00C9FF&center=true&vCenter=true&width=600&lines=Hello%2C+I'm+Mudasir+Wazir!;Welcome+to+Project+Endroid+%E2%9C%A8" alt="Typing SVG" />
 </div>
@@ -17,7 +19,7 @@
 
 <h2 align="center">✨ Project Endroid ✨</h2>
 
-<p align="center">
+
   <i>A collection of modern, beautiful, free & open-source web applications</i><br>
   <b>Built with Material You 3 • Expressive animations • Perfect dark/light mode</b>
 </p>
