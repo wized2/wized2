@@ -1,97 +1,80 @@
-<p align="center"><img width="928" height="1120" alt="avatar" src="https://github.com/user-attachments/assets/b79d37c8-0f9e-43b3-b6da-62bc207f1973" /></p>
+<p align="center">
+  <img src="https://github.com/wized2.png" width="96" height="96" alt="wized2" style="border-radius:50%" />
+</p>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=35&pause=1000&color=00C9FF&center=true&vCenter=true&width=600&lines=Hello%2C+I'm+Mudasir+Wazir!;Welcome+to+Project+Endroid+%E2%9C%A8" alt="Typing SVG" />
-</div>
-
-<br>
+<h1 align="center">Mudasir Wazir</h1>
 
 <p align="center">
-  <a href="https://github.com/wized2">
-    <img src="https://img.shields.io/badge/GitHub-%40wized2-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="https://wized2.github.io/Endroid">
-    <img src="https://img.shields.io/badge/Endroid%20Dashboard-Visit%20Now-9b59b6?style=for-the-badge&logoColor=white" alt="Dashboard">
-  </a>
+  <b>FOSS Android · Material You · privacy-first tools</b><br/>
+  Building <a href="https://endroid.zone.id"><b>Project Endroid</b></a> — open apps and utilities that stay offline when they can.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-❤️-ff69b4?style=flat-square" alt="Made with love">
-  <img src="https://img.shields.io/badge/Always%20Free-100%25-brightgreen?style=flat-square" alt="Free">
-  <img src="https://img.shields.io/badge/Offline%20First-✓-00b894?style=flat-square" alt="Offline First">
+  <a href="https://github.com/wized2"><img src="https://img.shields.io/badge/GitHub-wized2-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://endroid.zone.id"><img src="https://img.shields.io/badge/Endroid-Website-5B8DEF?style=flat-square" alt="Endroid"/></a>
+  <a href="https://get-fern.vercel.app"><img src="https://img.shields.io/badge/Fern-get--fern.vercel.app-2E7D32?style=flat-square" alt="Fern site"/></a>
+  <img src="https://img.shields.io/badge/Based%20in-Rahim%20Yar%20Khan%2C%20PK-grey?style=flat-square" alt="Location"/>
 </p>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
-</div>
+---
 
-<h1 align="center">✨ 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐄𝐧𝐝𝐫𝐨𝐢𝐝 ✨</h1>
+### About
+
+I ship small, focused open-source software—mostly **Kotlin / Android** and lightweight web tools under **Endroid**. Design goals stay consistent across projects:
+
+- **Offline-first** where it makes sense  
+- **No ads, no trackers**  
+- **Material You** UI  
+- Optional **Shizuku / root** only when the user opts in  
+
+Previously `@wized1`; this account continues the same work.
+
+---
+
+### Featured projects
+
+| Project | What it is |
+|---------|------------|
+| **[Latch](https://github.com/wized2/Latch)** | Privacy-first Tasker-style automation. Local if→then rules, exact alarms, Accessibility for app-open triggers, optional Shizuku/root. [Site](https://wized2.github.io/Latch/) |
+| **[Fern](https://github.com/wized2/Fern)** | Offline Material You system monitor — CPU, RAM, battery, thermals, elevated per-app stats. [Site](https://get-fern.vercel.app) |
+| **[D-Harness](https://github.com/wized2/D-Harness)** | On-device agent harness for DeepSeek Chat — WebView + native tools + sandboxed workspace |
+| **[Code Canva](https://github.com/wized2/Code-Canva)** | Type-out editor with syntax highlight, live HTML preview, optional session recording |
+| **[Class 8](https://github.com/wized2/Class8-Homework)** | Student homework + AI helper for Grade 8 (Material 3) |
+| **[Battery Temperature](https://github.com/wized2/Battery-Temperature)** | First Android app (2024) — recovered source, kept for history |
 
 <p align="center">
-  <i>𝘈 𝘤𝘰𝘭𝘭𝘦𝘤𝘵𝘪𝘰𝘯 𝘰𝘧 𝘮𝘰𝘥𝘦𝘳𝘯, 𝘣𝘦𝘢𝘶𝘵𝘪𝘧𝘶𝘭, 𝘧𝘳𝘦𝘦 & 𝘰𝘱𝘦𝘯-𝘴𝘰𝘶𝘳𝘤𝘦 𝘸𝘦𝘣 𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴</i><br>
-  <b>𝘉𝘶𝘪𝘭𝘵 𝘸𝘪𝘵𝘩 𝘔𝘢𝘵𝘦𝘳𝘪𝘢𝘭 𝘠𝘰𝘶 3 • 𝘌𝘹𝘱𝘳𝘦𝘴𝘴𝘪𝘷𝘦 𝘢𝘯𝘪𝘮𝘢𝘵𝘪𝘰𝘯𝘴 • 𝘗𝘦𝘳𝘧𝘦𝘤𝘵 𝘥𝘢𝘳𝘬/𝘭𝘪𝘨𝘩𝘵 𝘮𝘰𝘥𝘦</b>
+  <a href="https://github.com/wized2/Latch/stargazers"><img src="https://img.shields.io/github/stars/wized2/Latch?style=flat-square&label=Latch" alt="Latch stars"/></a>
+  <a href="https://github.com/wized2/Fern/stargazers"><img src="https://img.shields.io/github/stars/wized2/Fern?style=flat-square&label=Fern" alt="Fern stars"/></a>
+  <a href="https://github.com/wized2/D-Harness"><img src="https://img.shields.io/github/stars/wized2/D-Harness?style=flat-square&label=D-Harness" alt="D-Harness stars"/></a>
 </p>
 
-<br>
-## 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐝 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+---
 
-<div align="center">
+### Endroid (web)
 
-<a href="https://wized2.github.io/Ai/"><img src="https://img.shields.io/badge/Endroid%20AI-Gemini%20Powered-3498db?style=for-the-badge" alt="AI"></a>
+A set of free, MIT-licensed utilities with a shared visual language:
 
-<a href="https://wized2.github.io/Search/"><img src="https://img.shields.io/badge/Endroid%20Search-Smart%20&%20Clean-2ecc71?style=for-the-badge" alt="Search"></a>
+[**Dashboard**](https://endroid.zone.id) · [AI](https://wized2.github.io/Ai/) · [Search](https://wized2.github.io/Search/) · [Notes](https://wized2.github.io/Notes/) · [Clock](https://wized2.github.io/Clock/) · [Base64](https://wized2.github.io/Base64/) · [Dash](https://github.com/wized2/Dash)
 
-<a href="https://wized2.github.io/Base64/"><img src="https://img.shields.io/badge/Base64%20Tool-Instant%20Encode/Decode-e74c3c?style=for-the-badge" alt="Base64"></a>
+---
 
-<a href="https://wized2.github.io/Clock/"><img src="https://img.shields.io/badge/Endroid%20Clock-Dynamic%20Themes-9b59b6?style=for-the-badge" alt="Clock"></a>
+### Stack
 
-<a href="https://wized2.github.io/Notes/"><img src="https://img.shields.io/badge/Endroid%20Notes-Rich%20Text%20%26%20Offline-f1c40f?style=for-the-badge" alt="Notes"></a>
+`Kotlin` · `Jetpack Compose` · `Material You` · `Android` · `Shizuku`  
+`HTML` / `CSS` / `JS` · `Cloudflare` · `GitHub Actions`
 
-<a href="https://wized2.github.io/Calculator/"><img src="https://img.shields.io/badge/Endroid%20Calculator-Animated%20Beauty-1abc9c?style=for-the-badge" alt="Calculator"></a>
+---
 
-<a href="https://wized2.github.io/Maze/"><img src="https://img.shields.io/badge/Endroid%20Maze-Procedural%20Adventure-e67e22?style=for-the-badge" alt="Maze"></a>
+### Contact
 
-</div>
+- Email: [hello@endroid.zone.id](mailto:hello@endroid.zone.id)  
+- Discord: [invite](https://discord.gg/Js8e7vZJY)  
+- WhatsApp: [chat](https://wa.me/923073477752)  
 
-</div>
+Contributions and issue reports on **Fern**, **Latch**, and related apps are welcome—prefer small, focused PRs and green CI.
 
-<br>
+---
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
-</div>
-
-## 𝐐𝐮𝐢𝐜𝐤 𝐒𝐭𝐚𝐭𝐬
-
-<div align="center">
-
-![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=wized2&theme=radical&hide_border=true)
-</div>
-<br>
-
-## 𝐋𝐞𝐭'𝐬 𝐂𝐨𝐧𝐧𝐞𝐜𝐭
-
-<div align="center">
-
-<a href="mailto:hello@endroid.zone.id">
-  <img src="https://img.shields.io/badge/Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-</a>
-<a href="https://discord.gg/Js8e7vZJY">
-  <img src="https://img.shields.io/badge/Join%20Discord%20Server-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-</a>
-<a href="https://wa.me/923073477752">
-  <img src="https://img.shields.io/badge/Endroid%20on%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-</a>
-
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
-  <i>𝘒𝘦𝘦𝘱 𝘤𝘳𝘦𝘢𝘵𝘪𝘯𝘨. 𝘒𝘦𝘦𝘱 𝘴𝘩𝘢𝘳𝘪𝘯𝘨. 𝘒𝘦𝘦𝘱 𝘪𝘯𝘴𝘱𝘪𝘳𝘪𝘯𝘨.</i>
-</div>
-
-<br>
-
-<p align="center"><sub>© 2026 Mudasir Wazir • Project Endroid • All projects under MIT License unless specified</sub></p>
+<p align="center">
+  <sub>© 2026 Mudasir Wazir · Project Endroid · MIT unless noted otherwise</sub>
+</p>
